@@ -22,6 +22,10 @@ function App() {
       element: <Repos />,
     },
     {
+      path: "/",
+      element: <Home />
+    },
+    {
       path: '/Dashboard',
       element: <Home />
     }, {
